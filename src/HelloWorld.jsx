@@ -4,8 +4,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 
 function HelloWorld(props) {
-    return (
-        <div></div>
     const [count, setCount] = useState(0)
 
     return (
@@ -120,9 +118,5 @@ function HelloWorld(props) {
     )
 }
 
-export default App
-
-);
-}
 
 export default HelloWorld;
