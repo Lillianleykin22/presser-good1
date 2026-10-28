@@ -1,0 +1,18 @@
+.stat-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    direction: initial;
+    margin: 0 auto;
+}
+
+.red   { background-color: red; }
+.green { background-color: green; }
+.blue  { background-color: blue; }
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
