@@ -2,7 +2,7 @@ import React from 'react';
 
 function ColorfulButton(clr, submitFunction) {
     return (
-        <button onClick={submitFunction}> ({clr})</button>
+        <button onClick={submitFunction} style={{backgroundColor: clr}}>{clr}</button>
     );
 }
 
