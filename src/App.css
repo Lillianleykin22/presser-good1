@@ -1,7 +1,6 @@
 .button_row{
   display: grid;
   gap: 10px;
-  flex-direction: row;
   grid-template-columns: repeat(3, 1fr);
 }
 .button_row button{
@@ -54,7 +53,7 @@
     top: 34px;
     height: 28px;
     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
-      scale(1.4);
+    scale(1.4);
   }
 
   .vite {
@@ -63,7 +62,7 @@
     height: 26px;
     width: auto;
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
-      scale(0.8);
+    scale(0.8);
   }
 }
 
@@ -192,4 +191,16 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.roundButton{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 5px solid #000000;
+}
+.boldNum{
+  font-weight: bold;
+  color: #000000;
 }

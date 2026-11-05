@@ -1,9 +1,15 @@
 import React from 'react';
 
-function ColorfulButton(clr, submitFunction) {
+function ColoredButton({clr,submitFunc}) {
     return (
-        <button onClick={submitFunction} style={{backgroundColor: clr}}>{clr}</button>
+        <button
+            onClick={submitFunc}
+            className="roundButton"
+            style={{backgroundColor: clr}}
+        >
+
+        </button>
     );
 }
 
-export default ColorfulButton;
+export default ColoredButton;
